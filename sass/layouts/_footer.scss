@@ -1,0 +1,132 @@
+/*підвал*/
+
+.foot .container{
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+   }
+   
+   .foot{
+     background-color: #2f303A;
+     padding-top: 60px;
+     padding-bottom: 60px;
+   }
+   
+   .address{
+       font-style: normal;  
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 1.71;
+       letter-spacing: 0.03em; 
+       color: #ffffff;
+       margin-top: 20px;
+     
+   }
+   .add{
+     margin-bottom: 9px;
+   }
+   .mail{
+     margin-bottom: 6px;
+   }
+   
+   
+   .invitation{
+     font-weight: 700;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.03em;
+       text-transform: uppercase;
+       color:#ffffff;
+       margin-bottom: 20px;
+     }
+     
+       .inv-soc-list{
+         display: flex;
+         justify-content: center;
+         gap: 10px;
+           
+     }
+   
+     .inv-soc-link{
+       width:44px ;
+       height:44px ;
+       border-radius: 50%;
+       background-color:rgba(255, 255, 255, 0.1);
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+       transition-property:background-color;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     &:hover,
+     &:focus{
+       background-color: #2196f3;
+     }
+    }
+     
+     .inv-soc-icon{
+       fill:#ffffff;
+       .inv-soc-link:hover &,
+       .inv-soc-link:focus &{
+         fill:#ffffff;
+       }
+     }
+   
+     .mailing{
+       font-weight: 700;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.03em;
+       text-transform: uppercase;
+       color:#ffffff;
+       margin-bottom: 20px;
+     }
+   
+     .button-mailing{
+       font-family: 'Roboto', sans-serif;
+       font-weight: 700;
+       line-height: 1.88;
+       letter-spacing: 0.06em;
+       margin: 0 auto;
+       display: flex; 
+       border: 0;
+       padding: 8px 16px;
+       font-size: 16px; 
+       border-radius: 4px;
+       background-color: #2196f3;
+       color: #ffffff;
+       width: 200px;
+       height: 50px;
+       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+       justify-content: center;
+       align-items: center;
+       gap: 10px;
+     }
+   
+     .text-subscribe{
+       display: flex;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.25;
+       font-style: normal;
+       letter-spacing: 0.03em;
+       align-items: center;
+       color: rgba(255, 255, 255, 0.6);
+       width: 358px;
+       height: 50px;
+       border: 1px solid rgba(255, 255, 255, 0.3);
+       border-radius: 4px;
+       filter: drop-shadow(0px 4px 4px rgba(255,255,255,0.15));
+       background-color: #2f303A;
+       padding-left: 16px;
+       padding-top: 15px;
+       padding-bottom: 15px;
+    
+     }
+
+     .mail-subscribe{
+       display: flex;
+       gap: 12px;
+     }

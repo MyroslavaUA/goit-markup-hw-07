@@ -1,0 +1,55 @@
+
+  /* чим ми займаємось*/
+
+  .work-foto{
+    padding-bottom: 94px;
+      }
+
+  .work-foto__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .work-foto__list{
+    display: flex;
+    gap: 30px;
+      }
+
+  .work-foto__item{
+   position: relative;
+      }
+      
+  .overlay__title{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .overlay{
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-top: 27px;
+    }
+  
+
+
+
+
+  
+  

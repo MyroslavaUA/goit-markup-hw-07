@@ -1,0 +1,40 @@
+  .container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+  }
+    p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    }
+    
+    ul{
+    margin: 0;
+    padding-left: 0;
+     }
+    
+     a {
+      text-decoration: none; /* Скасовуємо підкреслення у посилань */
+      font-family: 'Roboto', sans-serif;
+      }
+      
+     /*шрифт і колір для сторінок*/
+      .style{
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      color: #212121;
+
+      }
+      .is-hidden{
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      li {
+        display: block;/*прибрали крапочки*/
+      }
+    
+      .no-scroll {
+        overflow: hidden;
+      }
